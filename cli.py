@@ -37,7 +37,7 @@ def list():
             table_data = []
             for item in items:
                 table_data.append([
-                    item['id'][:8],
+                    item['id'],
                     item['name'],
                     item.get('brand', 'N/A'),
                     f"${item['price']:.2f}",
